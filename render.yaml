@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: sistema-cobranza
+    env: php
+    plan: free
+    buildCommand: "composer install"
+    startCommand: "php -S 0.0.0.0:8000 -t ."
+    envVars:
+      - key: DATABASE_URL
+        scope: run
+      - key: PHP_VERSION
+        value: "8.1"
+    staticPublicPath: public
+
+databases:
+  - name: db-sistema-cobranza
+    plan: free
+    databaseName: sistema_cobranza

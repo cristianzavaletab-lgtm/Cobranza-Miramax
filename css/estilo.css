@@ -1,0 +1,378 @@
+/* RESET Y BASE - ESTILO MIRAMAXNET */
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a2a6c 0%, #2c3e50 100%);
+    min-height: 100vh;
+    color: #333;
+    padding: 0;
+    margin: 0;
+}
+
+/* CONTAINER PRINCIPAL - ESTILO MODERNO */
+.container {
+    max-width: 420px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* HEADER CON LOGO MIRAMAXNET */
+.header {
+    background: linear-gradient(135deg, #1a2a6c 0%, #2c3e50 100%);
+    color: white;
+    padding: 30px 25px 20px 25px;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.logo-slogan {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+/* MENÚ SUPERIOR - ESTILO TARJETAS */
+.menu-superior {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 15px 20px;
+    background: #f8f9fa;
+}
+
+.menu-item {
+    text-align: center;
+    padding: 12px 5px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.menu-item span {
+    display: block;
+    font-size: 11px;
+    color: #6c757d;
+    margin-bottom: 4px;
+}
+
+.menu-item strong {
+    font-size: 12px;
+    color: #1a2a6c;
+    font-weight: 600;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {
+    padding: 25px;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.titulo-seccion h2 {
+    color: #1a2a6c;
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.titulo-seccion p {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+/* FORMULARIOS MEJORADOS */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 16px 20px;
+    border: 2px solid #e9ecef;
+    border-radius: 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background: #f8f9fa;
+}
+
+.form-control:focus {
+    border-color: #1a2a6c;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(26, 42, 108, 0.1);
+    background: white;
+}
+
+/* BOTONES REDISEÑADOS */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin: 10px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #1a2a6c 0%, #2c3e50 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(26, 42, 108, 0.3);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(40, 167, 69, 0.3);
+}
+
+.btn-whatsapp {
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    color: white;
+    box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+/* CONTACTO WHATSAPP */
+.contacto-whatsapp {
+    text-align: center;
+    margin: 25px 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+    border-radius: 15px;
+    color: white;
+}
+
+.contacto-whatsapp p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.contacto-whatsapp strong {
+    font-size: 18px;
+    display: block;
+    margin-top: 5px;
+}
+
+/* CONTADOR MEJORADO */
+.contador {
+    background: linear-gradient(135deg, #1a2a6c 0%, #2c3e50 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 25px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.contador .label {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+
+.contador .tiempo {
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Courier New', monospace;
+}
+
+/* MÉTODOS DE PAGO REDISEÑADOS */
+.metodo-pago {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px 0;
+    text-align: center;
+    border: 2px solid #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.metodo-pago:hover {
+    border-color: #1a2a6c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.metodo-pago h4 {
+    color: #1a2a6c;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.numero-cuenta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin: 10px 0;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Courier New', monospace;
+}
+
+.qr-code {
+    width: 140px;
+    height: 140px;
+    margin: 15px auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background: linear-gradient(45deg, #1a2a6c, #2c3e50);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    border: 3px solid white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* FOOTER MEJORADO */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 1px solid #e9ecef;
+    color: #6c757d;
+    font-size: 12px;
+    background: #f8f9fa;
+    padding: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: #1a2a6c;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #2c3e50;
+}
+
+.soporte-info {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e9ecef;
+}
+
+.soporte-info a {
+    color: #1a2a6c;
+    text-decoration: none;
+}
+
+/* ESTADOS VISUALES MEJORADOS */
+.estado {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.estado.pendiente { 
+    background: #fff3cd; 
+    color: #856404; 
+    border: 1px solid #ffeaa7;
+}
+
+.estado.al-dia { 
+    background: #d4edda; 
+    color: #155724; 
+    border: 1px solid #c3e6cb;
+}
+
+.estado.vencido { 
+    background: #f8d7da; 
+    color: #721c24; 
+    border: 1px solid #f5c6cb;
+}
+
+/* EFECTOS VISUALES EXTRAS */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.btn-pulse {
+    animation: pulse 2s infinite;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+    .container {
+        margin: 10px;
+        border-radius: 15px;
+    }
+    
+    .header {
+        padding: 25px 20px 15px 20px;
+    }
+    
+    .logo {
+        font-size: 24px;
+    }
+    
+    .contenido-principal {
+        padding: 20px;
+    }
+    
+    .menu-superior {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .contador .tiempo {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+}

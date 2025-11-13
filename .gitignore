@@ -1,0 +1,35 @@
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Cargas y archivos temporales
+uploads/*
+!uploads/.gitkeep
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependencias de Composer
+vendor/
+composer.lock
+
+# Caché
+*.tmp
+*.cache
+
+# Configuración local
+config.local.php
